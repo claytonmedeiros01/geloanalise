@@ -44,7 +44,7 @@ fig_co2 = px.line(
     markers=True  # Adicionando marcadores aos pontos da linha
     )
 fig_co2.update_layout(
-    plot_bgcolor='#1C1C1C',  # Cor de fundo do gráfico
+    plot_bgcolor='#DCDCDC',  # Cor de fundo do gráfico
    )
 st.plotly_chart(fig_co2)
 
@@ -57,7 +57,7 @@ fig_area = px.line(
     markers=True  # Adicionando marcadores aos pontos da linha
 )
 fig_area.update_layout(
-    plot_bgcolor='#1C1C1C',  # Cor de fundo do gráfico
+    plot_bgcolor='#DCDCDC',  # Cor de fundo do gráfico
    )
 st.plotly_chart(fig_area)
 
@@ -68,7 +68,7 @@ fig_dispersion = px.scatter(
     title='Dispersão entre Área e Média de CO2 Global',
 )
 fig_dispersion.update_layout(
-    plot_bgcolor='#1C1C1C',  # Cor de fundo do gráfico
+    plot_bgcolor='#DCDCDC',  # Cor de fundo do gráfico
    )
 # Exibindo gráfico de dispersão
 st.plotly_chart(fig_dispersion)
