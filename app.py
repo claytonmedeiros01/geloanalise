@@ -10,6 +10,9 @@ st.set_page_config(
     page_title="Análise de CO2 e Área de Geleira no Ártico",
     page_icon="❄️",
     layout="wide"
+    [theme]
+base="dark"
+
 )
 
 # Título da página
