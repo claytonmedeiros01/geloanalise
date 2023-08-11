@@ -1,7 +1,7 @@
 import streamlit as st
 import pandas as pd
 import plotly.express as px
-st.session_state['answer'] = ''!
+
 # Carregando o arquivo CSV
 df = pd.read_csv("resultados.csv")
 
